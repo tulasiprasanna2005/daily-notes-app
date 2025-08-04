@@ -1,0 +1,115 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input-section input,
+textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.input-section button {
+  padding: 10px;
+  border: none;
+  background-color: #6a5acd;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #5a4bb5;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.note-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-card h3 {
+  margin-top: 0;
+}
+
+.note-card ul {
+  padding-left: 20px;
+  list-style-type: none; /* Removes bullets */
+  margin: 0;
+}
+
+.update-section {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.update-section input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 8px;
+}
+
+.update-section button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #00b894;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-section button:hover {
+  background-color: #00997a;
+}
+
+.delete-btn {
+  background-color: #ff4757;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e84141;
+}
